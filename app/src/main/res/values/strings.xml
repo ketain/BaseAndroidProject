@@ -1,0 +1,82 @@
+<resources>
+    <string name="app_name">Base App</string>
+    <string name="login_activity">Anmelden</string>
+
+    <!--Button texts-->
+    <string name="ok_button">Okay</string>
+    <string name="abort_button">Abbrechen</string>
+    <string name="close_button">Schließen</string>
+    <string name="send_button">Senden</string>
+    <string name="retry_button">Wiederholen</string>
+    <string name="send_anyway_button">Trotzdem abschicken</string>
+    <string name="save_button">Speichern</string>
+    <string name="delay_button">" Min Verspätung senden"</string>
+
+    <string name="login_button">Anmelden</string>
+    <string name="login_text_view">Mit Ihrem timum-Account anmelden:</string>
+    <string name="login_user_name_view">Login eMail-Adresse</string>
+    <string name="login_user_password">Passwort</string>
+    <array name="tabstrip_titles">
+        <item>Ausschreiben</item>
+        <item>Dashboard</item>
+        <item>Anfragen</item>
+    </array>
+
+    <string name="dashboard">Dashboard</string>
+
+
+    <!--Error messages-->
+    <string name="generic_error_title">Sorry</string>
+    <string name="login_email_checkbox">Email speichern</string>
+
+    <!--tab strip titles-->
+    <string name="create_availability">Einstellen</string>
+    <string name="calendar">Kalender</string>
+    <string name="requests"><![CDATA[Anfragen(<font color="red">%1$s</font>)]]></string>
+
+
+    <string name="hello_blank_fragment">Hello blank dialogFragment</string>
+    <string name="create_availability_date">Datum</string>
+    <string name="create_availability_headline">Freie Termine einstellen</string>
+    <string name="create_availability_time_range">Zeitraum-Anfang</string>
+    <string name="create_availability_estate">Für Objekt</string>
+    <string name="create_availability_app_duration">Termindauer (in Min)</string>
+    <string name="create_availability_app_duration_post_edit">Min pro Termin</string>
+    <string name="create_availability_app_nr">Anzahl Termine</string>
+    <string name="create_appointment_app_nr_post_edit">Termine</string>
+    <string name="create_availability_nr_customers">Teilnehmeranzahl</string>
+    <string name="create_availability_nr_customers_post_edit">Teinehmer</string>
+    <string name="create_availability_hint">Geben Sie 1 als Teilnehmerzahl an, um Einzeltermine auszuschreiben.</string>
+    <string name="requests_long">Terminanfragen</string>
+    <string name="send_link_dialogue_title">Buchung eines Alternativtermins</string>
+    <string name="send_link_dialog_message">Eine Einladung zur Buchung eines Alternativtermins für das Objekt\n%1$s\nwird versendet an:</string>
+    <string name="send_link_dialo_optional_message">Persönliche Nachricht einbinden (optional)</string>
+    <string name="delete_button">Löschen</string>
+    <string name="delete_request_dialog_message">Möchten Sie diese Anfrage wirklich löschen ohne den Kunden zu benachrichtigen?</string>
+    <string name="delete_request_dialog_title">Anfrage löschen?</string>
+    <string name="reject_dialog_title">Anfrage absagen?</string>
+    <string name="reject_button">Absagen</string>
+    <string name="reject_dialog_your_message">Ihre Nachricht</string>
+    <string name="reject_dialog_message">Sind Sie sicher, dass Sie diese Anfrage absagen wollen?\nSie können optional eine Begründung der Absage angeben, diese wird per eMail an den Kunden gesendet.</string>
+    <string name="reject_dialog_standard_optional_text">Leider hat ein anderer Kunde vor Ihnen den Termin gebucht.</string>
+
+    <!--content descriptions fo accessibility-->
+    <string name="content_descriptor_left_nav_arrow">Left pointing arrow. Centered vertically and attached to the left side of the screen. Used to indicate possibility of swipe navigation.</string>
+    <string name="content_description_right_nac_arrow">Right pointing arrow. Centered vertically and attached to the right side of the screen. Used to indicate possibility of swipe navigation.</string>
+    <string name="content_description_nav_draw_open">Navigationsfenster is offen.</string>
+    <string name="content_description_nav_draw_close">Navigationsfenster geschlossen.</string>
+    <string name="choose_a_provider">Wählen Sie einen Anbieter</string>
+    <string name="no_items">Keine Einträge vorhanden</string>
+    <string name="no_network_header_title">Sie sind Offline</string>
+    <string name="no_network_header_message">Keine Kalender Synchronisation verfügbar. Verspätungsnachrichten nicht versendbar. Angezeigte Kalendereinträge können veraltet sein.</string>
+    <string name="drawer_first_item">Kalender</string>
+    <string name="darwer_second_item">Freie Termine einstellen</string>
+    <string name="darwer_third_item">Terminanfragen bearbeiten</string>
+    <string name="drawer_fourth_item">Logout</string>
+    <string name="confirm_dialog_headline">Terminanfrage bestätigen</string>
+    <string name="confirm_dialog_message">Eine Bestätigung der Anfrage für das Objekt %1$s wird versendet an:</string>
+    <string name="button_confirm">Bestätigen</string>
+    <string name="confirm_dialog_hint">Bitte denken Sie daran, die Adresse des Standorts bzw. des Treffpunkts mitzusenden.</string>
+
+
+</resources>

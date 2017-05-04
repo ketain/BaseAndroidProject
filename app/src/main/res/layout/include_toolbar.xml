@@ -1,0 +1,22 @@
+<android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/the_toolbar"
+    android:layout_height="?attr/actionBarSize"
+    android:layout_width="match_parent"
+    android:minHeight="?attr/actionBarSize"
+    android:background="?attr/colorPrimary"
+    android:elevation="3dp"
+    app:theme="@style/AppThemeToolbar"
+    app:popupTheme="@style/AppTheme">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorWhite"
+        android:id="@+id/the_toolbars_title"
+        android:text="@string/dashboard"
+        android:textStyle="bold"
+        android:textSize="@dimen/font_45_sp"
+        />
+</android.support.v7.widget.Toolbar>
+
